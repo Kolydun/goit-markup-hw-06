@@ -1,0 +1,217 @@
+.footer {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #2e2f42;
+}
+
+@media screen and (min-width: 1158px) {
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-info {
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.footer-logo .logo-text {
+  color: #4d5ae5;
+}
+
+.footer-text {
+  max-width: 264px;
+  color: #f4f4fd;
+}
+
+.footer-block {
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.footer-social-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.footer-block .social-list {
+  gap: 16px;
+  justify-content: center;
+}
+
+.footer-block .social-link:hover,
+.footer-block .social-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-subscribe {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-subscribe-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+.footer-subscribe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-subscribe-label {
+  display: block;
+  width: 100%;
+  max-width: 288px;
+}
+
+.footer-subscribe-input {
+  width: 100%;
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  outline: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: transparent;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-input::placeholder {
+  color: #fff;
+}
+
+.footer-subscribe-input:focus {
+  border-color: #4d5ae5;
+}
+
+.footer-subscribe-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-width: 165px;
+  height: 40px;
+  padding: 8px 24px;
+  border: none;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-subscribe-btn:hover,
+.footer-subscribe-btn:focus {
+  background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .footer .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    column-gap: 24px;
+  }
+
+  .footer-info {
+    margin-bottom: 0;
+    margin-right: 24px;
+    text-align: left;
+  }
+
+  .footer-block {
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .footer-block .social-list {
+    justify-content: flex-start;
+  }
+
+  .footer-subscribe {
+    flex-basis: 100%;
+    margin-top: 72px;
+    text-align: center;
+  }
+
+  .footer-subscribe-form {
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .footer-subscribe-label {
+    max-width: none;
+    width: 264px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .footer .container {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .footer-info {
+    margin-right: 0;
+  }
+
+  .footer-logo {
+    line-height: 1.33;
+  }
+
+  .footer-block {
+    margin-left: 120px;
+  }
+
+  .footer-subscribe {
+    flex-basis: auto;
+    width: auto;
+    margin-top: 0;
+    margin-left: 80px;
+    text-align: left;
+  }
+
+  .footer-subscribe-form {
+    justify-content: flex-start;
+  }
+}
