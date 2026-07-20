@@ -78,7 +78,21 @@
   }
 }
 
+@media screen and (min-width: 1158px) {
+  .feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
 .feature-text {
   font-weight: 500;
   text-align: left;
+}
+
+@media screen and (min-width: 1158px) {
+  .feature-text {
+    font-weight: 400;
+  }
 }
